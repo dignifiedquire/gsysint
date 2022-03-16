@@ -9,8 +9,8 @@ import (
 	"testing"
 	"unsafe"
 
-	"github.com/sitano/gsysint/g"
-	"github.com/sitano/gsysint/trace"
+	"github.com/dignifiedquire/gsysint/g"
+	"github.com/dignifiedquire/gsysint/trace"
 )
 
 func TestPark(t *testing.T) {

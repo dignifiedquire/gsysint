@@ -3,7 +3,7 @@ package gsysint
 import (
 	_ "unsafe"
 
-	"github.com/sitano/gsysint/g"
+	"github.com/dignifiedquire/gsysint/g"
 )
 
 // Mutual exclusion locks.  In the uncontended case,

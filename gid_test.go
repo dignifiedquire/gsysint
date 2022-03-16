@@ -3,7 +3,7 @@ package gsysint
 import (
 	"testing"
 
-	"github.com/sitano/gsysint/g"
+	"github.com/dignifiedquire/gsysint/g"
 )
 
 func TestGIDFromStack(t *testing.T) {

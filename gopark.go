@@ -4,8 +4,8 @@ import (
 	"sync/atomic"
 	"unsafe"
 
-	"github.com/sitano/gsysint/trace"
-	"github.com/sitano/gsysint/g"
+	"github.com/dignifiedquire/gsysint/trace"
+	"github.com/dignifiedquire/gsysint/g"
 )
 
 type Park struct {

@@ -13,7 +13,7 @@
 package trace
 
 import (
-	"github.com/sitano/gsysint/sys"
+	"github.com/dignifiedquire/gsysint/sys"
 )
 
 // Event types in the trace, args are given in square brackets.

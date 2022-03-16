@@ -7,7 +7,7 @@ package g
 import (
 	"unsafe"
 
-	"github.com/sitano/gsysint/sys"
+	"github.com/dignifiedquire/gsysint/sys"
 )
 
 // defined constants
@@ -196,17 +196,17 @@ func (gp Guintptr) Ptr() *G { return (*G)(unsafe.Pointer(gp)) }
 //go:nosplit
 func (gp *Guintptr) Set(g *G) { *gp = Guintptr(unsafe.Pointer(g)) }
 
-//go:nosplit
+// go:nosplit
 //func (gp *guintptr) Cas(old, new guintptr) bool {
 //	return atomic.Casuintptr((*uintptr)(unsafe.Pointer(gp)), uintptr(old), uintptr(new))
 //}
 
 type Puintptr uintptr
 
-//go:nosplit
+// go:nosplit
 //func (pp Puintptr) ptr() *P { return (*P)(unsafe.Pointer(pp)) }
 
-//go:nosplit
+// go:nosplit
 //func (pp *Puintptr) set(p *P) { *pp = Puintptr(unsafe.Pointer(p)) }
 
 // muintptr is a *m that is not tracked by the garbage collector.
